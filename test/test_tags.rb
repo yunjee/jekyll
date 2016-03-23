@@ -43,7 +43,12 @@ CONTENT
   end
 
   def highlight_block_with_opts(options_string)
-    Jekyll::Tags::HighlightBlock.parse('highlight', options_string, ["test", "{% endhighlight %}", "\n"], {})
+    Jekyll::Tags::HighlightBlock.parse(
+      'highlight',
+      options_string,
+      Liquid::Tokenizer.new("test{% endhighlight %}\n"),
+      Liquid::ParseContext.new
+    )
   end
 
   context "language name" do
