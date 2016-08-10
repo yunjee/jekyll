@@ -9,18 +9,18 @@ google_site_verification: onQcXpAvtHBrUI5LlroHNE_FP0b2qvFyPq7VZw36iEY
 repository: https://github.com/jekyll/jekyll
 help_url: https://github.com/jekyll/jekyll-help
 
-timezone: America/Los_Angeles
+timezone: South Korea/Seoul
 
 collections:
   docs:
     output: true
 
-name: Jekyll • Simple, blog-aware, static sites
-description: Transform your plain text into static websites and blogs
-url: https://jekyllrb.com
+name: Yunjee
+description: my websites and blogs
+url: https://yunjee.github.io
 
-twitter:
-  username: jekyllrb
+facebook:
+  username: JeeHye Yun
 
 logo: img/logo-2x.png
 
